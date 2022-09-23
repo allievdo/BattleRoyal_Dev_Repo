@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviourPun
     public Player photonPlayer;
 
     [PunRPC]
-    public void Inititalize (Player player)
+    public void Initialize (Player player)
     {
         id = player.ActorNumber;
         photonPlayer = player;
